@@ -25,6 +25,7 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps,
+export default connect(
+    mapStateToProps,
     mapDispatchToProps
 )(NewCakeContainer)
